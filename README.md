@@ -74,7 +74,7 @@ ggplot(data.frame(soln), aes(x=time)) +
 ```
 
 
-![png](output_7_0.png)
+![png](/SIR_plot.png)
 
 
 # Stochastic SIR Model (Markov Chain)
@@ -155,5 +155,5 @@ ggplot(data=stochastic_SIR_time_series, aes(x=time)) +
 ```
 
 
-![png](output_12_0.png)
+![png](/stochastic_SIR_plot.png)
 
