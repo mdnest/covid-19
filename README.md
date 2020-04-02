@@ -12,7 +12,7 @@ library("ggplot2")
 
 # Deterministic SIR Model (ODEs)
 
-The source code for the deterministic model is in SIR.R. It uses 4th order Runge-Kutta ODE solver.
+The following is the deterministic SIR ODE model. The code uses 4th order Runge-Kutta ODE solver. The source code for the deterministic model is in SIR.R. 
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dS}{dt}=-\beta\frac{SI}{N}">
 
