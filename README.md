@@ -14,6 +14,8 @@ library("ggplot2")
 
 The source code for the deterministic model is SIR.R. It uses 4th order Runge-Kutta ODE solver.
 
+$$ \frac{dS}{dT} $$
+
 ```R
 #Define ODE system
 f <- function(t, y, parms) {
