@@ -16,6 +16,10 @@ The source code for the deterministic model is SIR.R. It uses 4th order Runge-Ku
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dS}{dt}=-\beta\frac{SI}{N}">
 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dI}{dt}=\beta\frac{SI}{N}-\gamma I">
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dR}{dt}=-\gamma I">
+
 ```R
 #Define ODE system
 f <- function(t, y, parms) {
