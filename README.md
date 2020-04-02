@@ -12,7 +12,7 @@ library("ggplot2")
 
 # Deterministic SIR Model (ODEs)
 
-The source code for the deterministic model is SIR.R. It uses 4th order Runge-Kutta ODE solver.
+The source code for the deterministic model is in SIR.R. It uses 4th order Runge-Kutta ODE solver.
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dS}{dt}=-\beta\frac{SI}{N}">
 
@@ -86,7 +86,7 @@ ggplot(data.frame(soln), aes(x=time)) +
 
 # Stochastic SIR Model (Markov Chain)
 
-Uses same parameters and initial conditions as the deterministic model.
+The following is the stochastic version of the SIR model from class. It usese the same parameters and initial conditions as the deterministic model. The source code is found in SIR_stochastic.R.
 
 
 ```R
