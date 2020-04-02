@@ -73,5 +73,5 @@ ggplot(data.frame(soln), aes(x=time)) +
 ```
 
 
-![png](output_6_0.png)
+![png](./output_6_0.png)
 
