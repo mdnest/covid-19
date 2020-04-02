@@ -14,7 +14,7 @@ library("ggplot2")
 
 The source code for the deterministic model is SIR.R. It uses 4th order Runge-Kutta ODE solver.
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dS}{dt}=-\beta\frac{SI}{N}">
 
 ```R
 #Define ODE system
