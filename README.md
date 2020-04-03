@@ -90,8 +90,6 @@ The following is the stochastic version of the SIR model from class. It usese th
 
 There are libraries for R which already can compute Markov chains, but I couldn't figure them out so I coded my own. It works essentially like was shown in class, where it discretizes time into chunks of size dt, and then calculates the infinitesimal probability of transitioning. The only issue I found was that the "probability of transitioning" is not necessarily less than 1 unless except for sufficiently small dt. 
 
-Honestly, I am not sure of the purpose of using a stochastic model. When you simulate the model, the actual probability of the real scenation taking that particular route is very small. We might as well just look at the deterministic model in my opinion. The one use of the stochastic model may be that it can help derive a loss function when we get to data fitting. If you look at the posterior probability of each Markov sequence and compare with the data, this could help when we estimate parameters. Not sure about this part yet.
-
 
 ```R
 # Define Markov chain
